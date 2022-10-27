@@ -19,6 +19,9 @@ $( document ).ready(function() {
         },
         1000:{
             items:2
+        },
+         1240:{
+            items:1
         }
     }
 });
