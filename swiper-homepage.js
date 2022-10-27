@@ -11,6 +11,7 @@ $( document ).ready(function() {
         startPosition: '1',
           animateOut: 'slideOutDown',
     animateIn: 'flipInX',
+          smartSpeed:1000,
           
     responsive:{
         0:{
