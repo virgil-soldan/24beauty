@@ -1,14 +1,20 @@
 
-      var swiper = new Swiper(".swiper-homepage", {
-        slidesPerView: 2,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+$( document ).ready(function() {
+    console.log( "ready!" );
+      $('.homepage-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
         },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        600:{
+            items:3
         },
-      });
+        1000:{
+            items:5
+        }
+    }
+});
+});
