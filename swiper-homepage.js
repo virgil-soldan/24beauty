@@ -8,7 +8,9 @@ $( document ).ready(function() {
         loop:true,
         URLhashListener:true,
         autoplayHoverPause:true,
-        startPosition: 'youthlab',
+        startPosition: '1',
+          animateOut: 'slideOutDown',
+    animateIn: 'flipInX',
           
     responsive:{
         0:{
