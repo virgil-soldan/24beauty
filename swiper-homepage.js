@@ -7,7 +7,7 @@ $( document ).ready(function() {
         loop:true,
         URLhashListener:true,
         autoplayHoverPause:true,
-        startPosition: '1',
+        startPosition: 'shop',
           animateOut: 'slideOutRight',
     animateIn: 'slideInLeft',
           smartSpeed:1000,
