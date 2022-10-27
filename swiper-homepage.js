@@ -1,6 +1,5 @@
 
 $( document ).ready(function() {
-    console.log( "ready!" );
       $('.homepage-carousel').owlCarousel({
     margin:10,
     nav:true,
