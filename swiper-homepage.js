@@ -2,12 +2,10 @@
 $( document ).ready(function() {
     console.log( "ready!" );
       $('.homepage-carousel').owlCarousel({
-    loop:true,
     margin:10,
     nav:true,
            items:2,
         loop:true,
-        margin:10,
         URLhashListener:true,
         autoplayHoverPause:true,
         startPosition: 'youthlab',
