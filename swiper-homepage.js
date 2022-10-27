@@ -7,7 +7,6 @@ $( document ).ready(function() {
     nav:true,
            items:2,
         loop:true,
-        center:true,
         margin:10,
         URLhashListener:true,
         autoplayHoverPause:true,
