@@ -5,8 +5,8 @@ $( document ).ready(function() {
     loop:true,
     margin:10,
     nav:true,
-           items:3,
-        loop:false,
+           items:2,
+        loop:true,
         center:true,
         margin:10,
         URLhashListener:true,
@@ -21,7 +21,7 @@ $( document ).ready(function() {
             items:1
         },
         1000:{
-            items:3
+            items:2
         }
     }
 });
