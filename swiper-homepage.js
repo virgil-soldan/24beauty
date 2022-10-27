@@ -11,7 +11,7 @@ $( document ).ready(function() {
         margin:10,
         URLhashListener:true,
         autoplayHoverPause:true,
-        startPosition: 'URLHash'
+        startPosition: 'youthlab',
           
     responsive:{
         0:{
