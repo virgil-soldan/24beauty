@@ -9,8 +9,8 @@ $( document ).ready(function() {
         URLhashListener:true,
         autoplayHoverPause:true,
         startPosition: '1',
-          animateOut: 'slideOutLeft',
-    animateIn: 'flipInY',
+          animateOut: 'slideOutRight',
+    animateIn: 'slideInLeft',
           smartSpeed:1000,
           
     responsive:{
