@@ -3,13 +3,11 @@ $( document ).ready(function() {
       $('.homepage-carousel').owlCarousel({
     margin:10,
     nav:true,
-           items:2,
+           items:1,
         loop:true,
         URLhashListener:true,
         autoplayHoverPause:true,
         startPosition: 'halloween',
-          animateOut: 'slideOutRight',
-    animateIn: 'slideInLeft',
           smartSpeed:1000,
           
     responsive:{
