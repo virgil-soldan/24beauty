@@ -25,8 +25,8 @@ $(document).ready(function() {
      loop: false,
      arrows:false,
      nav: true,
-     autoplay: true,
-    autoplayTimeout:10000,
+     autoplay: false,
+     autoplayTimeout:20000,
      singleItem: true,
      video: true,
      responsive: {
@@ -50,8 +50,8 @@ $(document).ready(function() {
    });
  });
 
-$(window).resize(function(){
-           var w = window.matchMedia("(max-width: 700px)");
+function resizedw(){
+       var w = window.matchMedia("(max-width: 640px)");
       var vid = document.getElementById("video_piuma_el");
       var source = document.createElement("source");
       source.id = "hvid";
@@ -71,6 +71,13 @@ $(window).resize(function(){
         vid.load();
         vid.play();
       }
-})
+}
+
+var resizeHCarousel;
+window.onresize = function(){
+  clearTimeout(resizeHCarousel);
+  resizeHCarousel = setTimeout(resizedw, 500);
+};
+
 
 
