@@ -26,6 +26,7 @@ $(document).ready(function() {
      arrows:false,
      nav: true,
      autoplay: true,
+    autoplayTimeout:10000,
      singleItem: true,
      video: true,
      responsive: {
