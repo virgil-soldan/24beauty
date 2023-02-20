@@ -1,5 +1,4 @@
- $(document).ready(function() {
-            var w = window.matchMedia("(max-width: 640px)");
+        var w = window.matchMedia("(max-width: 700px)");
       var vid = document.getElementById("video_piuma_el");
       var source = document.createElement("source");
       source.id = "hvid";
@@ -15,11 +14,11 @@
       } else {
         vid.pause();
         source.removeAttribute("src");
-        source.setAttribute("src", "https://uxs.ro/24beauty/piuma-stella-desktop.mp4");
+        source.setAttribute("src", "https://uxs.ro/24beauty/piuma-stella-mobile.mp4");
         vid.load();
         vid.play();
       }
-      
+$(document).ready(function() {
    var owlTop = $('.homepage-carousel').owlCarousel({
      margin: 0,
      items: 1,
