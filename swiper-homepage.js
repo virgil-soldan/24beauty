@@ -14,7 +14,7 @@
       } else {
         vid.pause();
         source.removeAttribute("src");
-        source.setAttribute("src", "https://uxs.ro/24beauty/piuma-stella-mobile.mp4");
+        source.setAttribute("src", "https://uxs.ro/24beauty/piuma-stella-desktop.mp4");
         vid.load();
         vid.play();
       }
