@@ -24,7 +24,7 @@ $(document).ready(function() {
      items: 1,
      loop: false,
      arrows:false,
-     nav: fale,
+     nav: true,
      autoplay: true,
      singleItem: true,
      video: true,
