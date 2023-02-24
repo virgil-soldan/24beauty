@@ -8,13 +8,13 @@
       if (w.matches) {
         vid.pause();
         source.removeAttribute("src");
-        source.setAttribute("src", "https://24beauty.ro/video/piuma-stella-mobile.mp4");
+        source.setAttribute("src", "https://cdn.jsdelivr.net/gh/virgil-soldan/24beauty@80ed52a76840ac3334d51ebeed6bd991606547a3/piuma-stella-mobile.mp4");
         vid.load();
         vid.play();
       } else {
         vid.pause();
         source.removeAttribute("src");
-        source.setAttribute("src", "https://24beauty.ro/video/piuma-stella-desktop.mp4");
+        source.setAttribute("src", "https://cdn.jsdelivr.net/gh/virgil-soldan/24beauty@80ed52a76840ac3334d51ebeed6bd991606547a3/piuma-stella-desktop.mp4");
         vid.load();
         vid.play();
       }
